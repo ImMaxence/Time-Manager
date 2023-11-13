@@ -1,0 +1,44 @@
+.container_graph_wtis {
+
+    width: 95%;
+    margin-left: 2.5%;
+    height: 380px;
+}
+
+.which_user_selected {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.container_full_calendar {
+
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.fc .fc-button-primary {
+    background-color: transparent !important;
+    color: var(--black) !important;
+    border-color: var(--black) !important;
+}
+
+.container_btn_create_wts {
+
+    width: 90%;
+    margin-left: 5%;
+
+    display: flex;
+    justify-content: end;
+
+    button {
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid;
+        cursor: pointer;
+    }
+}

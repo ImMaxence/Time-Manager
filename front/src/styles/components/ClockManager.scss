@@ -1,0 +1,34 @@
+.content_clock_manager {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_clock_manager {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+
+    cursor: pointer;
+
+    i {
+        margin-right: 10px;
+        color: var(--white);
+    }
+}
+
+.button_clock_manager_ok {
+    background-color: var(--green);
+}
+
+.button_clock_manager_default {
+    background-color: var(--red);
+}
+
+.button_clock_manager_not {
+    background-color: var(--arsenic);
+}

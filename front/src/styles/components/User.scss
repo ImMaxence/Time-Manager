@@ -1,0 +1,162 @@
+.wrapper_map_user {
+
+    padding: 10px;
+
+    hr {
+        height: 1px;
+        border-top: 1px solid var(--black-white);
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 8px;
+    }
+}
+
+.wrapper_content_user {
+    display: flex;
+    justify-content: start;
+    gap: 8px;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 5px;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.text_to_clamp_user {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+
+.wrapper_fix {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    cursor: pointer;
+
+}
+
+.togoright_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_utils_user {
+
+    position: relative;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.4s, height 0.4s;
+
+    i {
+        cursor: pointer;
+    }
+
+    #trash {
+        color: var(--red);
+    }
+
+    #pencil {
+        color: var(--blue);
+    }
+}
+
+.show-utils {
+    opacity: 1;
+    height: 15px;
+
+    z-index: 1 !important;
+}
+
+#more {
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    transform: rotate(90deg);
+}
+
+.rotate-icon {
+    transform: rotate(180deg) !important;
+
+}
+
+.name_user_in_modal {
+    font-weight: 800;
+}
+
+.sure_yes_no {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    button {
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        color: var(--white);
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px;
+    }
+
+    #yes {
+        background-color: var(--red);
+    }
+
+    #no {
+        background-color: var(--blue);
+    }
+}
+
+.add_more_user_post {
+    width: 100%;
+    background-color: var(--white);
+
+    position: sticky;
+    bottom: 0;
+
+    text-align: center;
+    padding: 10px 0;
+
+    i {
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+.form_addnewuser {
+
+    select {
+        background-color: transparent;
+        border: none;
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
+
+.btn3 {
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+}
+
+.title_crud_user {
+
+    text-decoration: underline;
+    margin-bottom: 30px;
+    text-align: center;
+}

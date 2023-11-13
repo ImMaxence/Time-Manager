@@ -1,0 +1,82 @@
+.container_buttons_charts_wktime {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: var(--malibu);
+        color: var(--white);
+    }
+
+}
+
+.container_charts_wktime {
+
+    width: 100%;
+    height: calc(100% - 150px);
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.wrapper_content_data_user {
+
+    width: 300px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    span {
+        font-weight: 800;
+    }
+
+    h4 {
+        margin-bottom: 40px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+
+}
+
+
+.wrapper_dog {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.wrapper_line {
+
+    width: 90%;
+
+}
+
+.container_polar_charts {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 820px) {
+    .wrapper_dog {
+        flex-wrap: wrap;
+        overflow-y: scroll;
+    }
+}

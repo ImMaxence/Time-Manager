@@ -1,0 +1,32 @@
+.container_content_chartmanager {
+    background-color: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px;
+    overflow: hidden;
+    width: 90%;
+    border-radius: 8px;
+    margin-left: 5%;
+    padding: 20px;
+    margin-bottom: 30px;
+
+    h3 {
+        text-align: center;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+}
+
+.wrapper_all_chartmanager {
+    width: auto;
+    height: 330px;
+    overflow-y: scroll;
+    padding-top: 10px;
+}
+
+.wrapper_inputs_chart {
+    padding: 15px 0;
+
+    label {
+        margin-right: 15px;
+        margin-left: 5px;
+    }
+}

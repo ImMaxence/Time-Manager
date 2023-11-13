@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+$font-Rubik: 'Rubik', sans-serif;
+
+:root {
+    --yellow: #FEAE49;
+    --arsenic: #3D424A;
+    --malibu: #57BEE6;
+    --black-white: #E6E5DE;
+    --white: #FFF;
+    --black: #000;
+    --silver: #1E1E21;
+    --red: #F65555;
+    --blue: #53B1FF;
+    --green: #83E37B;
+    --dark-blue: #002258;
+
+}
+
+[data-theme="dark"] {
+    --yellow: #3D424A;
+    --arsenic: #FEAE49;
+    --malibu: #57BEE6;
+    --black-white: #57BEE6;
+    --white: #3D424A;
+    --black: #FFF;
+    --silver: #E6E5DE;
+    --red: #F65555;
+    --blue: #53B1FF;
+    --green: #83E37B;
+    --dark-blue: #3D424A;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: $font-Rubik;
+    font-weight: 500;
+    color: var(--silver);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
