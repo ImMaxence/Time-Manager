@@ -9,9 +9,8 @@ In this repository you have :
 # Some previews
 <details>
   <summary>Web - Mobile (click me) 📱</summary>
-  <img width="370" alt="Capture d’écran 2023-11-07 à 13 51 04" src="https://github.com/EpitechMscProPromo2025/T-POO-700-MAR_4/assets/110362553/1832ba4d-f530-4216-8efd-8eda22e0483a">
-<img width="370" alt="Capture d’écran 2023-11-07 à 13 51 19" src="https://github.com/EpitechMscProPromo2025/T-POO-700-MAR_4/assets/110362553/132d0537-772a-44df-9e9b-6d9fef710741">
-<img width="370" alt="Capture d’écran 2023-11-07 à 13 52 14" src="https://github.com/EpitechMscProPromo2025/T-POO-700-MAR_4/assets/110362553/6133418b-88e1-4e14-a229-9e84d86baf35">
+![1](doc/readme/1.png)
+
 </details>
 
 <details>
