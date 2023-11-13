@@ -9,18 +9,19 @@ In this repository you have :
 # Some previews
 <details>
   <summary>Web - Mobile (click me) 📱</summary>
-![1](doc/readme/1.png)
-
+<img width="300" alt="1" src="doc/readme/1.png">
+  <img width="300" alt="2" src="doc/readme/2.png">
+  <img width="300" alt="3" src="doc/readme/3.png">
 </details>
 
 <details>
   <summary>Web - Desktop (click me) 💻</summary>
-<img width="1499" alt="Capture d’écran 2023-11-07 à 14 16 01" src="https://github.com/EpitechMscProPromo2025/T-POO-700-MAR_4/assets/110362553/186330b1-bbad-4b09-8cf2-6882a2d7477f">
+  <img width="600" alt="4" src="doc/readme/4.png">
 </details>
 
 <details>
   <summary>Mobile Application (click me) 👾</summary>
-  <img width="380" alt="Capture d’écran 2023-11-08 à 14 23 54" src="https://github.com/EpitechMscProPromo2025/T-POO-700-MAR_4/assets/110362553/c9c60ec5-8961-4667-a869-8e8623fd443c">
+<img width="300" alt="5" src="doc/readme/5.png">
 </details>
 
 # Quick Start
